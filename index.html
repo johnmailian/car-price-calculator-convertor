@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="solaris"><h1>SOLARIS</h1></div>
+        <!-- <div class="img"><img src="img/Hyundai-logo.png" alt=""></div> -->
+
+    <div id="imgHolder" class="imgHolder">
+        <img src="img/black.png" alt="Solaris">
+    </div>
+    </div>
+
+    <div class="model-summery">
+        <div class="model-name">Hyundai Solaris</div>
+        <div class="model-specs" id="modelSpecs"></div>
+        <div class="model-price" id="modelPrice"></div>
+        <div model-price id="modelPriceEuro"></div> 
+        <button><p>Order</p> </button> 
+    </div>
+    <form action="" id="autoForm">
+        <h3>Build Your 2020 Solaris</h3>
+        <div class="packages">
+            
+            <div class="col-1-of-3">
+                <h4>Engine Size</h4>
+                <div class="form-block">
+                    <input type="radio" name="engine" id="engine1400" value="15850" checked>
+                    <label for="engine1400">1.4 L (100 h. p.)</label>
+                </div>
+                <div class="form-block">
+                    <input type="radio" name="engine" id="engine1600" value="31500">
+                    <label for="engine1600">1.6 L (123 h. p.)</label>
+                </div>
+            </div>
+            <div class="col-1-of-3">
+                <h4>Transmission</h4>
+                <div class="form-block">
+                    <input type="radio" name="transmission" id="manual" value="0" checked>
+                    <label for="manual">Manual (6MT)</label>
+                </div>
+                <div class="form-block">
+                    <input type="radio" name="transmission" id="Automatic" value="2500">
+                    <label for="Automatic">Automatic (6 AT)</label>
+                </div>
+            </div>
+        
+       
+
+        <div class="col-1-of-3">
+            <h4>Package (Additional features)</h4>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageActive" value="0" checked>
+                <label for="packageActive">Active</label> 
+            </div>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageActivePlus" value="2150" checked>
+                <label for="packageActivePlus">Active Plus(Climate Control)</label> 
+            </div>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageActiveComfort" value="3500" checked>
+                <label for="packageActivePlus">Comfort(Leader interior)</label> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="color">
+        <h4>Color Collection</h4>
+        <div class="form-block">
+    
+        <div id="colorSelector" class="colorSelector">
+            <div class="colorItem colorBlue" data-img-path="img/blue.png"></div>
+            <div class="colorItem colorWhite" data-img-path="img/white.png"></div>
+            <div class="colorItem colorRed" data-img-path="img/red.png"></div>
+            <div class="colorItem colorBlack" data-img-path="img/black.png"></div>
+            <div class="colorItem colorGray" data-img-path="img/gray.png"></div>
+            <div class="colorItem colorOrange" data-img-path="img/orange.png"></div>
+            <div class="colorItem colorLightGray" data-img-path="img/lightgray.png"></div>
+        </div>
+        </div>
+    </div>
+</form>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
